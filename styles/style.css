@@ -1,0 +1,68 @@
+.body {
+  background-color: #3a4764;
+  font-family: 'League Spartan', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 450px 1fr;
+  font-size: 30px; }
+
+.titulo {
+  color: white; }
+
+#flexSwitchCheckDefault {
+  font-size: 25px; }
+
+.pantalla {
+  background-color: #182034;
+  font-size: 40px;
+  border-radius: 10px;
+  height: 120px; }
+
+.calc {
+  color: #444b5a;
+  background-color: #232c43;
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 50px);
+  height: 354px;
+  grid-column-gap: 26px;
+  grid-row-gap: 17.3px;
+  border-radius: 10px; }
+
+.calc > button {
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  height: 50px;
+  margin-left: 26px;
+  margin-top: 17.3px;
+  color: #444b5a; }
+
+.largo {
+  grid-column: span 2;
+  width: 100% !important; }
+
+.textoBlanco {
+  color: white !important; }
+
+.fondoBlanco {
+  box-shadow: 0px 5px 0px #b4a597;
+  background-color: #eae3dc; }
+
+.fondoAzul {
+  background-color: #637097;
+  box-shadow: 0px 5px 0px #404e72; }
+
+#igual {
+  background-color: #d03f2f;
+  box-shadow: 0px 5px 0px #93261a; }
+
+#valorAnterior {
+  font-size: 20px; }
+
+div > button:active {
+  box-shadow: none !important;
+  margin-top: 22.3px; }
+
+#igual:active {
+  box-shadow: none !important;
+  margin-top: 22.3px; }
